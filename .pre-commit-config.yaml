@@ -1,0 +1,8 @@
+repos:
+- repo: local
+  hooks:
+    - id: notebook-clear-and-execute
+      name: Clear and Execute Jupyter Notebooks
+      entry: powershell.exe -ExecutionPolicy RemoteSigned -File scripts/clear_and_execute_notebook.ps1
+      language: system
+      files: \.ipynb$
