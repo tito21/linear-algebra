@@ -10,6 +10,7 @@ dependencies = [
     "matplotlib>=3.10.7",
     "numpy>=2.3.4",
     "scipy>=1.16.3",
+    "sympy>=1.14.0",
 ]
 
 [dependency-groups]
